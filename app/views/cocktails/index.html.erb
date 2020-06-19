@@ -1,8 +1,8 @@
 <div class="banner">
-  <h1>Cocktail List</h1>
-  <div>
+  <h1 class="header d-flex justify-content-center">Fancy Cocktails</h1>
+  <div class="container d-flex justify-content-center">
     <% @cocktails.each do |cocktail| %>
-    <div>
+    <div class="card m-3 p-3" style="width: 300px height: 300px;">
       <%= link_to cocktail.name, cocktail_path(cocktail) %>
     </div>
     <% end %>
