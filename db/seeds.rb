@@ -11,3 +11,6 @@ data["drinks"].each do |i|
   Ingredient.create(name: i["strIngredient1"])
   puts "Created #{i["strIngredient1"]}"
 end
+
+Cocktail.create(name: "Mojito")
+Cocktail.create(name: "Old Fashion")
