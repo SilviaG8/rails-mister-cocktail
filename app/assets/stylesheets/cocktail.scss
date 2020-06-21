@@ -1,4 +1,19 @@
 // Place all the styles related to the cocktail controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+$gray: #f4f6ff;
+$spacer: 8px;
+
+body {
+  background: $gray;
+  font-family: Helvetia;
+}
+
+.banner {
+  background: #d6efc7;
+
+  h1 {
+    font-size: 50px;
+  }
+}
 
